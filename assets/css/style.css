@@ -1,0 +1,196 @@
+/* MACK EDIT 2020 06 15: BEGIN STYLING
+
+/* Style for document text */
+body {
+  color: #232240;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+#buttonStyle {
+  background-color: #232240;
+  background-color: #f2d5c4;
+  margin: 10%;
+  padding: 4%;
+}
+
+/* NAVIGATION */
+
+/* Items */
+.navItem {
+  white-space: pre;
+}
+
+.navItem > img {
+  width: 40%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  border-image: 25 25 round;
+  border-radius: 12px;
+}
+
+
+/* MOBILE */
+/* @media all and (max-width:630px) { */
+
+  /* First, hide the main menu */
+      /* #menu {
+        display:none;
+      } */
+  /* then display the mobile menu */
+      /* #mobileMenu {
+          display:block;
+      } */
+  /* lastly, show your mobile menu button */
+      /* #menuBtn{
+          display:inline-block;
+      }
+  } */
+
+/* DESKTOP */
+/* @media all and (min-width:631px) { */
+  /* Hide the mobile menu */
+      /* #mobileMenu {
+          display:none;
+      } */
+  /* Unhide the regular menu */
+      /* #menu{
+        display:block;
+      } */
+  /* Lastly, hide the mobile menu button */
+      /* #menuBtn{
+         display:none;
+     }    
+  } */
+
+/* Pusher Styleing */
+#pushContainer {
+  margin: 5%;
+}
+
+/* HOME PAGE */
+.glassItem {
+  width: 30%;
+}
+
+#moodText {
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+.searchIconStyle {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+/* This moves to line with glasses */
+#optionDrop {
+  margin-left: 5%;
+}
+
+/* Choose from Options */
+.dropDownLabel {
+  padding: 20px 10px 10px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+  color: #232240;
+}
+
+#randomGlassSubmit {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+  color: #232240;
+  background-color: #f2d5c4;
+}
+
+/* Random Drink Generator Section */
+
+#randomDrink {
+  display: none;
+}
+
+#moodText {
+  padding: 2px;
+  margin: 2px 2px 2px 2px;
+}
+#randomDrinkResult {
+  margin-top:5px; 
+  margin-bottom:5px;
+}
+
+/* FOOD PAGE */
+/* #mealResult {
+    display:none;
+} */
+
+/* DRINK PAGE */
+
+/* USER PAGE */
+
+.img-menu {
+  opacity: 1;
+  display: block;
+  width: 300%;
+  height: auto;
+  transition: 0.5s ease;
+  cursor: pointer ;
+}
+
+
+.navItem:hover .img-menu {
+  opacity: 0.3;
+  transform: scale(1.5);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.navItem:active .img-menu {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+#menu {
+  background-color: none;
+  
+}
+
+.navItem:focus .img-menu {
+  background-color:red;
+  transform: scale(1.5);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.navItem .img-menu {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+#clearMealStorage, #clearDrinkStorage {
+  margin-bottom: 15px;
+}
